@@ -20,27 +20,29 @@
 
 ## What are the types of the following values?
 
-* 0 int
-* "hello" string
-* 101 short
-* -1 long
-* true boolean
-* "33" string
-* 3.1415 double
+* 0: int, double
+* "hello": String
+* 101 : int, double
+* -1 : int, double
+* true: boolean
+* "33": string
+* 3.1415:  double
 
 ## What would you have to do to add a new field, for example one called name, to a circle object?
-String name; 
+'''
+private String name;
+'''
 ## Write the header for a method named send that has one parameter of type String, and does not return a value.
-String send () {
-  }
+'''
+public void send (String var1) 
+'''
+  
 ## Write the header for a method named average that has two parameters, both of type int, and returns an int value.
-int Average (int total) {
-int value = total / 2;
-return value;
+'''
+public int Average (int v1, int v2)
+'''
 ## Look at the book you are reading right now. Is it an object or a class? If it is a class, name some objects. If it is an object, name its class.
-public class BetweenTheWorldandMe
-{ int BookPrice = 18;
-String Title = "Between the World & Me";
-}
+The book is an object of class Books. 
+
 ## Can an object have several different classes? Discuss.
-No, it can implement multiple interfaces, and it can subclass a class with multiple superclasses, but it cannot be more than one object at a time.
+No
