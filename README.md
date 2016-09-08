@@ -1,17 +1,20 @@
 # Lab 02 -- Chapter 01
 
 ## Define the followint terms:
-* object,an object is an instance of a class
-* class, blueprint from which induvidual objects are created
-* instance,an object of the class
-* method,creates functionality; acceses or mutates
-* signature,method name and the number and type of its parameters
-* parameter,parameters are variables
-* type,set of data that have predefined characteristics 
-* state,conditions in which objects exist
-* source code,instructions a user uses to build a program
-* return value,
-* compiler, special program that processes statements written in a particular programming language and turns them into machine language or "code" that a computer's processor uses.
+* object: State or behavior (instance) of a class.
+* class: blueprint (code) that defines how to create an object.
+* instance: Specific realization pf any object.
+* method: A collection of statements in a class, that are used to manipulate (mutators) or access (accessors) information from an object of that class. (behaves like a function)
+* signature: method name and type of its parameters i.e. the following signature changes the size of the instance 'box' of class 'Box' and does not give an output.
+'''''
+* void changeSize (Box box)
+'''''
+* parameter: an input of the method
+* type: defines what values the parameter is allowed to be. 
+* state: set of values describing an object.
+* source code: collection of commands that compiles to create an executable program.
+* return value: Output of a method.
+* compiler: transforms source code into computer language (forces the computer to read the instructions).
 
 ## In Chapter 1 we have mentioned the data types int and String. Java has more predefined data types. Find out what they are and what they are used for. To do this, you can check Appendix B, or look it up in another Java book or in an online Java language manual. One such manual is at [http://download.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html](http://download.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)
 
